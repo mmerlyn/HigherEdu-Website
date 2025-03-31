@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HigherEduGuide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> </head>
+
+<body>
+    <div id="myNav" class="overlay container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="hep_home.html">HigherEduGuide.com</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+
+                        <li>
+
+                            <a onclick="closeNav()">
+                                <span class="glyphicon glyphicon-remove"></span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </div>
+        <!--        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+        <div class="overlay-content">
+            <a href="hep_home.html">Home</a>
+            <a href="hep_login.php">Profile</a>
+            <a href="map.php">Universities</a>
+            <a href="events.html">Events</a>
+
+        </div>
+    </div>
+    <div class="search" id="search">
+        <div class="search-content">
+            <input type="text" placeholder="Search here.." name="search">
+
+            <a class="pull-right" onclick="closeSearch()">
+                <span class="glyphicon glyphicon-remove"></span>
+
+            </a>
+        </div>
+    </div>
+
+    <div id="main">
+
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="hep_home.html">HigherEduGuide.com</a>
+
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+
+                        <li><a onclick="openSearch()"><span class="glyphicon glyphicon-search"></span></a></li>
+                        <li>
+
+                            <a onclick="openNav()">
+                                <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" hamb">
+
+                    <!--                <a onclick="openNav()">-->
+                    <button data-toggle="collapse" data-target="#navres">
+
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div id="navres" class="collapse">
+            <ul class="nav nav-stacked">
+                <li class="active"><a href="hep_home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Events</a></li>
+            </ul>
+
+        </div>
+
+        <div class="image">
+            <p> Hello, Welcome to our website HigherEduGuide.com,<br> Glad you are here! <br>This is the ultimate guide for your Higher Education abroad.<br> We're giving our best to make our analysis & visualization useful to all masters aspirants with updated & accurate data.<br> Navigate for more information!
+            </p>
+        </div>
+        <!--    ----->
+        <div class="wrap">
+            <div class="container">
+
+                <div class="row short-row">
+
+                     <div class="col-lg-6 col-md-6 col-sm-18 col-xs-18">
+                        <div class="arow">
+                            <div class="pic pic3"></div>
+                            
+                            <p><a href=events.html>UPCOMING EVENTS</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    ---->
+        <div class="container">
+
+            <div class="row short-row short1">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+
+                    <span>DO YOU KNOW?</span>
+                    <p>Do you know the the United States of America has the largest number of top ranked universities?<br><br><br> Do you know that most of the European Public Universities provide free education?</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+
+
+                    <span>Links to useful articles</span>
+                    <p>Studying aboard trends and tips for Indian students!</p>
+                    <p> <a href="https://beststudyabroad.medium.com/studying-abroad-trends-and-tips-for-indian-students-for-2019-bb176fb50c07">Click here to know more</a></p>
+
+                    <p>This is how studying aboard helps your career...</p>
+                    <p> <a href="https://medium.com/@braydenfox/does-studying-abroad-really-help-your-career-9e72814f5a6b">Read More here</a></p>
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <span>Complete guide to study masters in US</span>
+                    <p><a href="https://studyabroad.shiksha.com/student-guide-to-the-united-states-of-america-usa-guidepage-15">Click Here</a></p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!--    ----->
+        <footer>
+            <div class="container">
+                <div class="row text-cen">
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <ul class="location">
+                            <span>Our Location</span>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.803965509248!2d77.6199997138973!3d13.048146690805702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae176ddc662065%3A0x57b2874f9023bb8!2sEmbassy%20Manyata%20Business%20Park!5e0!3m2!1sen!2sin!4v1607385374955!5m2!1sen!2sin" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                               
+
+                            <li>
+                                <p style="color:white; ">IBM India Pvt Ltd, G1 Block Manyata Embassy,</p>
+                                <p style="color:white; ">Outer Ring Rd, Manayata Tech Park,</p>
+                                <p style="color:white; ">Nagavara, Bengaluru,</p>
+                                <p style="color:white; ">Karnataka 560045</p>
+                            </li>
+
+                            <li>
+                                <p>Ph: +91 974839437</p>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <ul class="menus ">
+                            <span>Menu</span>
+                            <li style="padding:0 0 12px 0; ">
+                                <a href="hep_home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="hep_login.php">Profile</a>
+                            </li>
+
+                            <li>
+                                <a href="map.php">Universities</a>
+                            </li>
+                            <li>
+                                <a href="events.html ">Events</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <ul class="text ">
+                            <span>About</span>
+                            <br>
+                            <p>
+                                Navigate to PROFILE to register yourself with us, add your dream universities to your favorites & keep track of your progress through out the application process
+                            </p>
+                            <br>
+                            <p>
+                                Navigate to UNIVERSITIES to filter & get the details of the Universities that are inline with your growth & career
+                            </p>
+                            <br>
+                            <p>
+                                Navigate to EVENTS to get the details of the upcoming events about higher education aboard in BMSIT&M
+                            </p>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </footer>
+        <div class="main-foot ">
+            <div class="container ">
+                <p class="pull-left pl">| HigherEduGuide.com &copy;</p>
+                <ul class="social pull-right ">
+
+                    <li>
+                        <a href="# "><i class="fa fa-facebook "></i></a>
+                    </li>
+
+                    <li>
+                        <a href="# "><i class="fa fa-twitter "></i></a>
+                    </li>
+
+
+                    <li>
+                        <a href="# "><i class="fa fa-pinterest "></i></a>
+                    </li>
+
+                    <li>
+                        <a href="# "><i class="fa fa-linkedin "></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+        function openSearch() {
+            document.getElementById("search").style.height = "100px";
+        }
+
+        function closeSearch() {
+            document.getElementById("search").style.height = "0%";
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
