@@ -52,7 +52,7 @@ This project helped us:
 ## License
 
 © All rights reserved. <br>
-This project was created as a mini project for the **17CS71 Web Technology and its applications** Lab, 
+This project was created as a mini project for the **17CS77 Web Technology and its applications Lab** , 
 7th Semester, B.E. CSE – BMS Institute of Technology & Management, Bengaluru, India
 
 **Team Members:**
