@@ -1,31 +1,61 @@
-# Higher Education Platform
-Online Higher education management platform developed as part of Mini project
+# Higher Education Website
 
-As part of Computer Science Engineering coursework, under Visvesvaraya Technological University (VTU), a web application using PHP, Javascript, HTML is developed
+The platform allows users to:
+- Search universities
+- Explore postgraduate programs
+- View course details
+- Track upcoming events
+- Manage a personal profile and favorite courses
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL (SQL dump included)
 
 Application screen shots:
-1. Home page
+- 🏠 **Home Page**
 ![Home page](mini_proj/home.PNG)
-2. Profile page
+- 👤 **Profile Page**
 ![profile page](mini_proj/profile.PNG)
-3. University search page
+- 🏫 **University Search Page**
 ![university page](mini_proj/map3.PNG)
-4. Course details page
+- 📘 **Course Details Page**
 ![course page](mini_proj/details_selectfav.PNG)
-5. Upcomming Events page
+- 📅 **Upcoming Events Page**
 ![events page](mini_proj/events_crop.png)
 
+## 📂 Project Files Overview
 
-Files: 
-* map.php - contains code for displaying the map
-* map_form.php - contains code to display the form and filter colleges, to display on the map
-* college_db.php - connects the college ranks table to the application, to display the colleges
-* masters_pgm_db - connects the program details table to the application (to display on the details page)
-* sql zip file - contains the database to be imported in phpmyadmin, will be updated
-* hep_login, hep_signup, hep_logout - same functionality
-* profile_fav.php - NOT DISPLAYED, used internally to add favorites
-* profile_fav_delete.php - to delete course in favorites list from profile page
-* profile.php - user details page
-* hep_home.html - updated home page with links
-* db_connect.php - contains the data required to connect to the database. It can be include in any php file, to reduce repeted code
+| File | Description |
+|------|-------------|
+| `map.php` | Displays an interactive map of colleges |
+| `map_form.php` | Contains the college filter form logic |
+| `college_db.php` | Connects the college ranks table to the app |
+| `masters_pgm_db.php` | Loads program details for course display |
+| `hep_login.php`, `hep_signup.php`, `hep_logout.php` | Authentication flow |
+| `profile.php` | Displays user profile details |
+| `profile_fav.php` | Internal file to add courses to favorites |
+| `profile_fav_delete.php` | Deletes favorites from profile |
+| `hep_home.html` | Home page with navigation links |
+| `db_connect.php` | Database connection script (used across files) |
+| `sql.zip` | SQL dump for importing into phpMyAdmin *(to be updated)* |
 
+## 📚 Learning Outcomes
+
+This project helped us:
+- Understand user-focused design for education portals
+- Implement filtering and search functionality using PHP & MySQL
+- Reduce code duplication using modular includes (like `db_connect.php`)
+- Practice real-world database connection and CRUD operations
+
+## License
+
+© All rights reserved. <br>
+This project was created as a mini project for the **17CS71 Web Technology and its applications** Lab, 
+7th Semester, B.E. CSE – BMS Institute of Technology & Management, Bengaluru, India
+
+**Team Members:**
+1. Merlyn Mercylona Maki Reddy
+2. Aishwarya M
+ 
